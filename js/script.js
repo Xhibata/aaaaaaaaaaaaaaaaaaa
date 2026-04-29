@@ -36,6 +36,7 @@ async function carregarProdutos() {
             </div>
           </div>
             `
+            conteiner.innerHTML += card;
         });
     }
     catch (error) {
